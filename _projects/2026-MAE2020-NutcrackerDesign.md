@@ -19,7 +19,9 @@ In this design I aimed for a target force at the nut of around 2.2 kN which I pu
 First I calculated the mechanical advantage that the nut cracker would need to provide. This was a simple calcuation of the force at the nut divided by the force at the handles. This gave a value of  2200N/250N = 8.8. For simplicities sake I decided to round this up to 9. This means that since our design is a simple lever we must have the handles 9 times farther away from the pivot point than the contact point of the nut. I decided that since the nut is about 15mm in diameter that the contact point should be around 2 cm away from the pivot meaning that the handles would have to be 18 cm away from the pivot point. Finally at the contact patch with the nut I added a sort of indent. This was done to ensure that while cracking the force on the nut would be only crushing it and not trying to force it out of the nut cracker. 
 
 ### Diagram of the Nut Cracker Design
-<img src="/assets/images/Nutcracker.jpg" width="90%">
+<img src="/assets/images/Nutcracker.png" width="90%">
+![image]({{"/assets/images/Nutcracker.png"}})
+![]() <img src="/assets/images/Nutcracker.png"  width="90%">
 
 ### Discussion on Usability of Design
 
