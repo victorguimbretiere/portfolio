@@ -25,6 +25,13 @@ First I calculated the mechanical advantage that the nut cracker would need to p
 
 This nutcracker is while usable probably a little big. In order to get the needed mechanical advantage the nutcracker ends up being quite big and somewhat unwieldy. A design that uses some sort of mechanism to further amplify the input force would probably allow for the design to be made more compact and less unwieldy
 
+### Investigation of Handle Deflection
+The handles on this nutcracker can be modeled as two straight bars that are pinned at the point at which they intersect and on rollers at the point at which the macadamia nut touches the bars (See diagram)
+<img src="/portfolio-victorguimbretiere/assets/images/Deflectioncrack.png" width="90%">
+Looking at the diagram we can see that the bars will be fixed at the pin and at the roller and thus we know that the maximum deflection of the bars will be at the end of the bars where the force is being applied. 
+
+### Designing to Mitigate Deflection
+
 ### Citations
 
 [1] Schrauf et al. Do capuchin monkeys use weight to select hammer tools, Anim Cogn 11, 413–422 (2008). https://doi.org/10.1007/s10071-007-0131-2  
