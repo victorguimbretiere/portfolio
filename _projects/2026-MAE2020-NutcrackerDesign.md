@@ -41,7 +41,7 @@ $$1.13587\times10^{-8}=\frac{\pi h^4}{128}$$
 $$h=26mm$$        
 $$b=13mm$$     
 This information combined allows us to have the following rough model of the nutcracker:      
-<img src="/portfolio-victorguimbretiere/assets/images/nutcreackerrender.png" width="90%">
+<img src="/portfolio-victorguimbretiere/assets/images/nutcreackerrender.PNG" width="90%">
 
 ### Citations
 
