@@ -31,12 +31,24 @@ The handles on this nutcracker can be modeled as two straight bars that are pinn
 Looking at the diagram we can see that the bars will be fixed at the pin and at the roller and thus we know that the maximum deflection of the bars will be at the end of the bars where the force is being applied. 
 
 ### Designing to Mitigate Deflection
+To design the handles so that the deflection is less than 2% of the length of the handles the first step is to calculate the formulas for the deflection of the beam given the supports we are modeling the system with.
+We can model the declection of the beam using the equation $$ y(x) = \frac{1}{EI}(\frac{Fx^3}{6} + \frac{0.09Fx^2}{2}+0.091Fx) $$   
+I decided to use titanium because of its high Young's modulus and its low density to make the nutcracker as mass efficent as possible. Pluging in our value for F and x=0.18 (The end of the beam) as well as our maximum deflection which is $$0.18*0.02 = 0.0036$$ or $$3.6mm$$ and Youngs modulus for titanium which is 115 GPa[4] we can solve for the needed moment of inertia. 
+$$ 0.0036 = \frac{1}{115GPaI}(\frac{250\cdot0.18^3}{6} + \frac{0.09\cdot250\cdot0.18^2}{2}+0.091\cdot250\cdot0.18) $$    
+$$I=1.13587\times10^{-8}$$    
+In order to make the nutcracker ergonomic and also resistant to bending I decided to use an elipese with the high being 2 times the width as the profile of the handle. Knowing that the moment of inertia about the height is $$I=\frac{\pi wh^3}{64}$$ and knowing that $$w=\frac{h}{2}$$ we can find that    
+$$1.13587\times10^{-8}=\frac{\pi h^4}{128}$$     
+$$h=26mm$$        
+$$b=13mm$$     
+This information combined allows us to have the following rough model of the nutcracker:      
+<img src="/portfolio-victorguimbretiere/assets/images/nutcreackerrender.png" width="90%">
 
 ### Citations
 
 [1] Schrauf et al. Do capuchin monkeys use weight to select hammer tools, Anim Cogn 11, 413–422 (2008). https://doi.org/10.1007/s10071-007-0131-2  
 [2] Sesana, R., Delprete, C., & Sangermano, M. (2019). Mechanical behavior of Macadamia nutshells. Procedia Structural Integrity, 24, 829–836. https://doi.org/10.1016/j.prostr.2020.02.088   
-[3] Bardo, A., Kivell, T. L., Town, K., Donati, G., Ballieux, H., Stamate, C., Edginton, T., & Forrester, G. S. (2021b). Get A grip: Variation in human hand grip strength and implications for human evolution. Symmetry, 13(7), 1142. https://doi.org/10.3390/sym13071142   
+[3] Bardo, A., Kivell, T. L., Town, K., Donati, G., Ballieux, H., Stamate, C., Edginton, T., & Forrester, G. S. (2021b). Get A grip: Variation in human hand grip strength and implications for human evolution. Symmetry, 13(7), 1142. https://doi.org/10.3390/sym13071142
+[4]Beer, F. P., Johnston, E. R., DeWolf, J. T., & Mazurek, D. F. (2021). Statics and mechanics of materials. McGraw-Hill Education. 
 
 
 
