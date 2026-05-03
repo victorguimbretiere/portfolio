@@ -47,7 +47,7 @@ This information combined allows us to have the following rough model of the nut
 
 [1] Schrauf et al. Do capuchin monkeys use weight to select hammer tools, Anim Cogn 11, 413–422 (2008). https://doi.org/10.1007/s10071-007-0131-2  
 [2] Sesana, R., Delprete, C., & Sangermano, M. (2019). Mechanical behavior of Macadamia nutshells. Procedia Structural Integrity, 24, 829–836. https://doi.org/10.1016/j.prostr.2020.02.088   
-[3] Bardo, A., Kivell, T. L., Town, K., Donati, G., Ballieux, H., Stamate, C., Edginton, T., & Forrester, G. S. (2021b). Get A grip: Variation in human hand grip strength and implications for human evolution. Symmetry, 13(7), 1142. https://doi.org/10.3390/sym13071142
+[3] Bardo, A., Kivell, T. L., Town, K., Donati, G., Ballieux, H., Stamate, C., Edginton, T., & Forrester, G. S. (2021b). Get A grip: Variation in human hand grip strength and implications for human evolution. Symmetry, 13(7), 1142. https://doi.org/10.3390/sym13071142   
 [4]Beer, F. P., Johnston, E. R., DeWolf, J. T., & Mazurek, D. F. (2021). Statics and mechanics of materials. McGraw-Hill Education. 
 
 
